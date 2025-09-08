@@ -3,10 +3,7 @@ module instr_decode(opcode,rd,rs1,rs2,funct3,funct7,instr);
     output [4:0] rd,rs1,rs2;
     output [2:0] funct3;
     output [6:0] funct7;
-    output [31:0] imm32; 
-    reg [12:0] imm_b;
-    reg [19:0] imm_u;
-    reg [20:0] imm_j;
+    output [31:0] imm32;
 
     input [31:0] instr;
 
