@@ -1,5 +1,5 @@
 module instr_decode(opcode,rd,rs1,rs2,funct3,funct7,instr);
-    output [7:0] opcode;
+    output [6:0] opcode;
     output [4:0] rd,rs1,rs2;
     output [2:0] funct3;
     output [6:0] funct7;
@@ -17,7 +17,7 @@ module instr_decode(opcode,rd,rs1,rs2,funct3,funct7,instr);
                     rd = instr[11:7];
                     rs1 = instr[19:15];
                     rs2 = instr[24:20];
-                    fucnt3 = instr[14:12];
+                    funct3 = instr[14:12];
                     funct7 = instr[31:25];
                     end
 
@@ -30,7 +30,7 @@ module instr_decode(opcode,rd,rs1,rs2,funct3,funct7,instr);
                     end
                 
                 //I-type (JALR)
-                7'b1100111: begin
+                7'b110111: begin
                     rd = instr[11:7];
                     rs1 = instr[19:15];
                     funct3 = instr[14:12];
@@ -50,7 +50,7 @@ module instr_decode(opcode,rd,rs1,rs2,funct3,funct7,instr);
                     rs1 = instr[19:15];
                     rs2 = instr[24:20];
                     funct3 = instr[14:12];
-                    imm32 = {{19{instr[31]}},instr[31],instr[7],instr[30:25],instr[11:8]};
+                    imm32 = {{19{instr[31]}},instr[31],instr[7],instr[30:25],instr[11:8],1'b0};
                     end
 
                 //U-type
@@ -62,7 +62,7 @@ module instr_decode(opcode,rd,rs1,rs2,funct3,funct7,instr);
                 //J-type
                 7'b1101111: begin
                     rd = instr[11:7];
-                    imm32 = {{11{instr[31]}},instr[31],instr[19:12],instr[20],instr[30:21]};
+                    imm32 = {{11{instr[31]}},instr[31],instr[19:12],instr[20],instr[30:21],1'b0};
                     end
                 
                 //illegal instruction
