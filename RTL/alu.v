@@ -1,3 +1,7 @@
+// © 2025 bradator1922 (Bharath). All rights reserved.
+// Provided for learning and modification only.
+// Reuse or submission of this architecture, or any substantially similar derivative, is strictly prohibited without written permission.
+
 module alu (A,B,funct3,funct7,ALUOp,ALUResult,Zero);
 
     input   [31:0] A,B;
@@ -59,4 +63,5 @@ module alu (A,B,funct3,funct7,ALUOp,ALUResult,Zero);
     assign Zero = (ALUResult == 32'd0);
 
 endmodule
+
 
