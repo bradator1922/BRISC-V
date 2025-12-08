@@ -1,3 +1,7 @@
+// © 2025 bradator1922 (Bharath). All rights reserved.
+// Provided for learning and modification only.
+// Reuse or submission of this architecture, or any substantially similar derivative, is strictly prohibited without written permission.
+
 module reg_file (clk,rst,rs1,rs2,rd,write_data,reg_write,rs1_data,rs2_data);
 
     input  clk,rst,reg_write;
@@ -20,3 +24,4 @@ module reg_file (clk,rst,rs1,rs2,rd,write_data,reg_write,rs1_data,rs2_data);
         end
     end
 endmodule
+
