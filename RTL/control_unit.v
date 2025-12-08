@@ -1,3 +1,7 @@
+// © 2025 bradator1922 (Bharath). All rights reserved.
+// Provided for learning and modification only.
+// Reuse or submission of this architecture, or any substantially similar derivative, is strictly prohibited without written permission.
+
 module control_unit(
     input        clk,
     input        rst,
@@ -367,3 +371,4 @@ module control_unit(
         endcase
     end
 endmodule
+
