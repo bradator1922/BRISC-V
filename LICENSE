@@ -1,21 +1,67 @@
-MIT License
+Copyright (c) 2025 bradator1922 (Bharath)
 
-Copyright (c) 2025 bradator1922
+All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This repository contains original hardware architecture, RTL design, 
+microarchitectural structures, and associated Verilog/SystemVerilog code 
+developed as part of the author's academic research.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Permission is granted to any individual to view, study, and modify the 
+source code for personal learning, academic understanding, or experimentation.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+However, the following restrictions apply:
+
+1. PROHIBITED USES
+   ---------------------------------
+   (a) The original architecture, microarchitecture, RTL structure, 
+       datapath, pipeline stages, control logic, or any substantially 
+       similar design may NOT be:
+       - used or submitted in any academic assignment,
+       - incorporated into any hardware or software implementation,
+       - redistributed in whole or in part,
+       - used as the basis for coursework, research, or commercial work,
+       unless explicit written permission is obtained from the author.
+
+   (b) Derivative works that retain the same architectural structure, design 
+       philosophy, module organization, or behavior as the original design 
+       are strictly prohibited from being used or submitted as original work.
+
+2. ALLOWED USES
+   ---------------------------------
+   (a) You may modify the code ONLY if the resulting design is substantially 
+       different from the original architecture.
+
+   (b) You may use the code for reference or learning to:
+       - understand digital design concepts,
+       - develop your own unique architecture or RTL implementation.
+
+3. DEFINITION OF “SUBSTANTIALLY DIFFERENT”
+   ---------------------------------
+   A derivative work is considered substantially different only if it does 
+   NOT replicate or closely mimic:
+   - the datapath layout,
+   - the control architecture,
+   - pipeline segmentation or hazard mechanisms,
+   - state machines or module-level behavior,
+   - interconnect structure,
+   - naming conventions that imply architectural identity.
+
+4. NO REDISTRIBUTION
+   ---------------------------------
+   Redistribution of this source code, in original or modified form, is not 
+   permitted without written permission from the author.
+
+5. ACADEMIC INTEGRITY NOTICE
+   ---------------------------------
+   Use of this code, or any close derivative, as part of an academic 
+   submission without permission constitutes academic misconduct and 
+   plagiarism under standard university policies.
+
+6. NO WARRANTY
+   ---------------------------------
+   This code is provided “as-is” for educational purposes. The author 
+   offers no warranty regarding correctness, performance, or suitability 
+   for any application.
+
+By accessing or using this repository, you agree to comply with all 
+terms stated in this license.
