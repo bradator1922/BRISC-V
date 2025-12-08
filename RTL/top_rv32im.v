@@ -1,3 +1,7 @@
+// © 2025 bradator1922 (Bharath). All rights reserved.
+// Provided for learning and modification only.
+// Reuse or submission of this architecture, or any substantially similar derivative, is strictly prohibited without written permission.
+
 module top_rv32im(clk,rst,pc_val,instr_val,pc_write_val,ir_write_val,opcode_val,pc_plus_4_val,ALUResult_val,next_pc_val);
 
 input clk,rst;
@@ -148,3 +152,4 @@ control_unit ctrl_u (
 
 
 endmodule 
+
