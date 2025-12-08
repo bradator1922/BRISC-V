@@ -1,3 +1,7 @@
+// © 2025 bradator1922 (Bharath). All rights reserved.
+// Provided for learning and modification only.
+// Reuse or submission of this architecture, or any substantially similar derivative, is strictly prohibited without written permission.
+
 module dmem (clk,rst,mem_read,mem_write,funct3,addr,write_data,read_data);
 
     input  clk,rst,mem_read,mem_write;
@@ -97,4 +101,5 @@ module dmem (clk,rst,mem_read,mem_write,funct3,addr,write_data,read_data);
     end
 
 endmodule
+
 
