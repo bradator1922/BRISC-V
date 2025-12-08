@@ -51,3 +51,9 @@ Add more RISC-V compliance tests
 Implement basic exceptions + CSR unit
 
 Explore low-power optimizations
+
+## License
+This project is covered by a custom No-Reuse Architecture License.  
+You may view and modify the code for learning, but you may not reuse, 
+submit, or distribute this architecture or any substantially similar design.  
+See the LICENSE file for full terms.
