@@ -1,3 +1,7 @@
+// © 2025 bradator1922 (Bharath). All rights reserved.
+// Provided for learning and modification only.
+// Reuse or submission of this architecture, or any substantially similar derivative, is strictly prohibited without written permission.
+
 module instr_decode (instr,opcode,rd,rs1,rs2,funct3,funct7,imm32,isMulDiv);
     input  [31:0] instr;
     output [6:0]  opcode;
@@ -79,4 +83,5 @@ module instr_decode (instr,opcode,rd,rs1,rs2,funct3,funct7,imm32,isMulDiv);
         endcase
     end
 endmodule
+
 
