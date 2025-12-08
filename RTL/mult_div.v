@@ -1,3 +1,7 @@
+// © 2025 bradator1922 (Bharath). All rights reserved.
+// Provided for learning and modification only.
+// Reuse or submission of this architecture, or any substantially similar derivative, is strictly prohibited without written permission.
+
 module mult_div(clk,rst,start,isMulDiv,A,B,funct3,funct7,MDResult,ready,busy,div_by_zero);
 
     input clk,rst,start,isMulDiv;
@@ -404,4 +408,5 @@ module radix4_div32 (clk,rst,start,dividend,divisor,is_signed,Q,R,ready,busy,div
     end
 
 endmodule
+
 
